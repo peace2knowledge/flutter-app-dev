@@ -1,8 +1,14 @@
-## 应用注册配置
+## Android
 
-## 消息接受配置
+### 应用注册配置
 
-## AndroidManifest文件的配置
+### 消息接受配置
+
+### AndroidManifest文件的配置
+
+## iOS 
+
+
 
 
 
