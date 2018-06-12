@@ -1,0 +1,2 @@
+include ':app', ':flutter_part'
+project(':flutter_part').projectDir = new File(settingsDir, '../flutter_part/android/app')
