@@ -4,7 +4,9 @@ package com.example.fluttermipushdemo;
  * Created by Administrator on 2018/6/11.
  */
 
+import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 
 import com.xiaomi.mipush.sdk.ErrorCode;
@@ -58,6 +60,20 @@ public class Mipush_Broadcast extends PushMessageReceiver {
         System.out.println("用户点击了通知消息");
         System.out.println("通知消息是" + message.toString());
         System.out.println("点击后,会进入应用" );
+        // 启动应用
+
+        try {
+            ComponentName com = new ComponentName(context.getPackageName(), "com.xiaolaohr.xlzhaopin.MyMainActivity");
+            Intent intent = new Intent();
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            intent.setComponent(com);
+            if (message != null) {
+                intent.putExtras(message.toString()); // 把Bundle塞入Intent里面
+            }
+            context.startActivity(intent);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 
