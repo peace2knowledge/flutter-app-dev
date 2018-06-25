@@ -1,0 +1,264 @@
+###  Constructors 构造函数
+
+通过创建一个和类名相同的函数声明一个构造函数（除此之外还有命名构造函数）。
+
+构造函数通常用来创建一个类的实例。
+
+```dart
+class Point {
+  num x, y;
+
+  Point(num x, num y) {
+    // There's a better way to do this, stay tuned.
+    this.x = x;
+    this.y = y;
+  }
+}
+```
+
+`this`关键字指向当前实例
+
+将构造函数的参数赋值给实例变量太常见了，dart有一个语法糖使这种情况更加便捷：
+
+```
+class Point {
+  num x, y;
+
+  // Syntactic sugar for setting x and y
+  // before the constructor body runs.
+  Point(this.x, this.y);
+}
+```
+
+####  Default constructors 默认的构造函数
+
+如果你不声明构造函数，系统将提供一个默认的构造函数。默认的构造函数没有参数，而且将调用父类的无参数的构造函数。
+
+#### Constructors aren’t inherited 构造函数不能继承
+
+子类不能从父类继承构造函数。声明无参数的构造函数的子类只有默认的构造函数，即没有参数、没有名字（相对于命名构造函数）。
+
+####  Named constructors 命名构造函数
+
+通过命名构造函数实现一个类可以有多个构造函数，或者提供更有正对性的构造函数：
+
+```dart
+class Point {
+  num x, y;
+
+  Point(this.x, this.y);
+
+  // Named constructor
+  Point.origin() {
+    x = 0;
+    y = 0;
+  }
+}
+```
+
+注意：构造函数是不能继承的，所以子类是不能继承父类的命名构造函数的。如果你希望使用父类中的构造函数创建子类的实例，你必须在子类中实现父类中的构造函数。
+
+#### Invoking a non-default superclass constructor 调用父类非默认构造函数
+
+默认，子类的构造函数调用父类非命名、无参构造函数。父类的构造函数在构函数体之前调用。如果有初始化列表，初始化在父类构造函数之前执行。总之，执行顺序如下：
+
+1.  初始化列表
+2.  父类的无参构造函数
+3. 当前类的无参构造函数
+
+如果父类没有未命名、无参构造函数，那么你必须手动调用父类中的一个构造函数。注意：父类的构造函数调用在`:`之后，构造函数体之前。
+
+在如下的例子中，Employee类的构造函数调用他父类Person的命名构造函数。
+
+```dart
+class Person {
+  String firstName;
+
+  Person.fromJson(Map data) {
+    print('in Person');
+  }
+}
+
+class Employee extends Person {
+  // Person does not have a default constructor;
+  // you must call super.fromJson(data).
+  Employee.fromJson(Map data) : super.fromJson(data) {
+    print('in Employee');
+  }
+}
+
+main() {
+  var emp = new Employee.fromJson({});
+
+  // Prints:
+  // in Person
+  // in Employee
+  if (emp is Person) {
+    // Type check
+    emp.firstName = 'Bob';
+  }
+  (emp as Person).firstName = 'Bob';
+}
+```
+
+因为父类构造函数的参数在调用之前会评估，所以参数可以是表达式，例如一个函数调用。
+
+```dart
+class Employee extends Person {
+  Employee() : super.fromJson(getDefaultData());
+  // ···
+}
+```
+
+注意：父类构造函数不能使用`this`.例如，参数可以调用静态方法，但是不能调用实例方法。
+
+#### nitializer list 初始化列表
+
+除了调用父类的构造函数，你还可以在执行构造函数体之前初始化实例变量。用逗号分隔每个初始化。
+
+```dart
+// Initializer list sets instance variables before
+// the constructor body runs.
+Point.fromJson(Map<String, num> json)
+    : x = json['x'],
+      y = json['y'] {
+  print('In Point.fromJson(): ($x, $y)');
+}
+```
+
+注意：初始化表达式的右边不能用`this`.
+
+在开发期间，你可以在出初始化列表中使用`assert校验`输入：
+
+```dart
+Point.withAssert(this.x, this.y) : assert(x >= 0) {
+  print('In Point.withAssert(): ($x, $y)');
+}
+```
+
+设置final字段时，初始化列表还是很方便的。下面你的例子中，在初始化裂变中初始化三个final变量
+
+```dart
+import 'dart:math';
+
+class Point {
+  final num x;
+  final num y;
+  final num distanceFromOrigin;
+
+  Point(x, y)
+      : x = x,
+        y = y,
+        distanceFromOrigin = sqrt(x * x + y * y);
+}
+
+main() {
+  var p = new Point(2, 3);
+  print(p.distanceFromOrigin);
+}
+```
+
+#### Redirecting constructors 可重定向的构造函数
+
+有时一个构造函数的目的只是重定向到同类的另一个构造函数。一个可重定向函数的函数体是空的，同时构造函数的调用是在冒号之后的。
+
+```DART
+class Point {
+  num x, y;
+
+  // The main constructor for this class.
+  Point(this.x, this.y);
+
+  // Delegates to the main constructor.
+  Point.alongXAxis(num x) : this(x, 0);
+}
+
+```
+
+####  Constant constructors 常量构造函数
+
+如果一个对象是不会改变的，你可以讲这些对象创建为编译时常量。定义`cost`构造函数，而且要确保所有的常量都是final的。
+
+```dart
+class ImmutablePoint {
+  static final ImmutablePoint origin =
+      const ImmutablePoint(0, 0);
+
+  final num x, y;
+
+  const ImmutablePoint(this.x, this.y);
+}
+```
+
+####  Factory constructors 工厂构造函数
+
+当你需要构造函数不是每次都创建一个新的对象时，使用`factory`关键字。例如工程构造函数返回一个在缓存的中的实例或者返回一个子类的实例。
+
+下面的例子说明，从缓存中返回实例：
+
+```dart
+class Logger {
+  final String name;
+  bool mute = false;
+
+  // _cache is library-private, thanks to
+  // the _ in front of its name.
+  static final Map<String, Logger> _cache =
+      <String, Logger>{};
+
+  factory Logger(String name) {
+    if (_cache.containsKey(name)) {
+      return _cache[name];
+    } else {
+      final logger = Logger._internal(name);
+      _cache[name] = logger;
+      return logger;
+    }
+  }
+
+  Logger._internal(this.name);
+
+  void log(String msg) {
+    if (!mute) print(msg);
+  }
+}
+```
+
+注意：工厂构造函数不能使用`this`
+
+调用工厂构造函数，可以使用`new`关键字
+
+```
+var logger = Logger('UI');
+logger.log('Button clicked');
+```
+
+###  Methods 方法
+
+Methods are functions that provide behavior for an object.
+
+方法是给对象提供行为的函数
+
+#### Instance methods 实例方法
+
+ Instance methods on objects can access instance variables and `this`. The `distanceTo()`method in the following sample is an example of an instance method:
+
+类的实例方法可以使用实例变量和`this`. 下面例子中的`distanceTo()`方法就是实例变量：
+
+```dart
+import 'dart:math';
+
+class Point {
+  num x, y;
+
+  Point(this.x, this.y);
+
+  num distanceTo(Point other) {
+    var dx = x - other.x;
+    var dy = y - other.y;
+    return sqrt(dx * dx + dy * dy);
+  }
+}
+```
+
+#### Getters and setters

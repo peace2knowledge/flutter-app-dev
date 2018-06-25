@@ -369,9 +369,11 @@ public class Mipush_Broadcast extends PushMessageReceiver {
 
 ## iOS 
 
-待续。。。。
+参考
 
-
+- [ios推送配置](https://dev.mi.com/doc/p=2995/index.html) 
+- [创建推送证书](https://www.jianshu.com/p/2777e3cf6bf8 )
+- [flutter接受消息部分同样参考上面的工程](https://github.com/flutter/flutter/tree/master/examples/flutter_view   )
 
 
 
