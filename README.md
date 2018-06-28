@@ -8,6 +8,8 @@ flutter-app-dev
 
 [闲鱼技术](https://www.zhihu.com/org/xian-yu-ji-zhu/activities)
 
+[计算机图形学](https://zhuanlan.zhihu.com/p/25442805)
+
 ## 专业视频
 
 - https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured
