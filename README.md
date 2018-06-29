@@ -12,6 +12,8 @@ flutter-app-dev
 
 [下一代移动端跨平台框架-Flutter大解密](https://mp.weixin.qq.com/s/ZMp2fSOTlYkZ_aNIOrUZdw)
 
+## 英文文档
+[比较，介绍Flutter RN](https://www.smashingmagazine.com/2018/06/google-flutter-mobile-development/)
 ## 专业视频
 
 - https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured
