@@ -10,6 +10,8 @@ flutter-app-dev
 
 [计算机图形学](https://zhuanlan.zhihu.com/p/25442805)
 
+[下一代移动端跨平台框架-Flutter大解密](https://mp.weixin.qq.com/s/ZMp2fSOTlYkZ_aNIOrUZdw)
+
 ## 专业视频
 
 - https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured
