@@ -28,5 +28,7 @@ https://feather-apps.com/ 可以在桌面运行
 
 [列表](https://github.com/samarthagarwal/FlutterAwesomeList.git)
 
+[计算器](https://github.com/escamoteur/flutter_calculator)
+
 ## 课程
 - https://www.udemy.com/learn-flutter-dart-to-build-ios-android-apps/?couponCode=EARLY_BIRD_YT1
