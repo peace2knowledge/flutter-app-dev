@@ -1,6 +1,8 @@
 # flutter-app-dev
 flutter-app-dev
 
+https://feather-apps.com/ 可以在桌面运行
+
 ## 中文参考文档
 [Flutter 原理简解](https://mp.weixin.qq.com/s/CQQXD0TrlbaNWjoClIcDtw)
 
@@ -14,6 +16,10 @@ flutter-app-dev
 
 ## 英文文档
 [比较，介绍Flutter RN](https://www.smashingmagazine.com/2018/06/google-flutter-mobile-development/)
+
+## 博客
+
+[关于Flutter的各个知识点，值得前期翻译](http://cogitas.net/)
 ## 专业视频
 
 - https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured
@@ -21,3 +27,6 @@ flutter-app-dev
 [五子棋](https://github.com/RedBrogdon/flutterflip)
 
 [列表](https://github.com/samarthagarwal/FlutterAwesomeList.git)
+
+## 课程
+- https://www.udemy.com/learn-flutter-dart-to-build-ios-android-apps/?couponCode=EARLY_BIRD_YT1
