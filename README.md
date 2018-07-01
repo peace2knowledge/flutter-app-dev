@@ -17,6 +17,8 @@ https://feather-apps.com/ 可以在桌面运行
 ## 英文文档
 [比较，介绍Flutter RN](https://www.smashingmagazine.com/2018/06/google-flutter-mobile-development/)
 
+[navigator api详细解释](https://medium.com/flutter-community/flutter-push-pop-push-1bb718b13c31) 
+
 ## 博客
 
 [关于Flutter的各个知识点，值得前期翻译](http://cogitas.net/)
