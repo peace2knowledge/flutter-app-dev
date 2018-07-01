@@ -19,6 +19,8 @@ https://feather-apps.com/ 可以在桌面运行
 
 [navigator api详细解释](https://medium.com/flutter-community/flutter-push-pop-push-1bb718b13c31) 
 
+[了解widget、renderObject、element](https://medium.com/flutter-community/flutter-what-are-widgets-renderobjects-and-elements-630a57d05208)
+
 ## 博客
 
 [关于Flutter的各个知识点，值得前期翻译](http://cogitas.net/)
