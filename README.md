@@ -1,5 +1,5 @@
 # flutter-app-dev
-flutter-app-dev
+关于Flutter的资料
 
 ## 中文参考文档
 
@@ -28,7 +28,7 @@ flutter-app-dev
 
 - [比较全面的Dart和Flutter教程](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured)
 
-- https://www.udemy.com/learn-flutter-dart-to-build-ios-android-apps/?couponCode=EARLY_BIRD_YT1
+- [Learn Flutter & Dart to Build iOS & Android Apps](https://www.udemy.com/learn-flutter-dart-to-build-ios-android-apps/?couponCode=EARLY_BIRD_YT1)
 
 ## 例子
 [五子棋](https://github.com/RedBrogdon/flutterflip)
