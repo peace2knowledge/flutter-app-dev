@@ -21,6 +21,8 @@
 
 [介绍widget、renderObject、element的关系](https://medium.com/flutter-community/flutter-what-are-widgets-renderobjects-and-elements-630a57d05208)
 
+[Flutter的组件到底以什么](https://medium.com/fluttery/what-even-are-flutter-widgets-ce537a048a7d)
+
 [关于Flutter的各个知识点，比较简单](http://cogitas.net/)
 
 ## 英文视频
