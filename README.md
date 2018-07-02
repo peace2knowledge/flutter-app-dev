@@ -24,9 +24,12 @@ https://feather-apps.com/ 可以在桌面运行
 ## 博客
 
 [关于Flutter的各个知识点，值得前期翻译](http://cogitas.net/)
-## 专业视频
+## 英文视频
 
-- https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured
+-[比较全面的Dart和Flutter教程] https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured
+
+- https://www.udemy.com/learn-flutter-dart-to-build-ios-android-apps/?couponCode=EARLY_BIRD_YT1
+
 ## 例子
 [五子棋](https://github.com/RedBrogdon/flutterflip)
 
@@ -34,5 +37,3 @@ https://feather-apps.com/ 可以在桌面运行
 
 [计算器](https://github.com/escamoteur/flutter_calculator)
 
-## 课程
-- https://www.udemy.com/learn-flutter-dart-to-build-ios-android-apps/?couponCode=EARLY_BIRD_YT1
