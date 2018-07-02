@@ -15,15 +15,14 @@
 
 ## 英文文档
 
-[比较，介绍Flutter RN](https://www.smashingmagazine.com/2018/06/google-flutter-mobile-development/)
+[从各个方面比较Flutter和RN](https://www.smashingmagazine.com/2018/06/google-flutter-mobile-development/)
 
-[navigator api详细解释](https://medium.com/flutter-community/flutter-push-pop-push-1bb718b13c31) 
+[navigator api详细介绍](https://medium.com/flutter-community/flutter-push-pop-push-1bb718b13c31) 
 
-[了解widget、renderObject、element](https://medium.com/flutter-community/flutter-what-are-widgets-renderobjects-and-elements-630a57d05208)
+[介绍widget、renderObject、element的关系](https://medium.com/flutter-community/flutter-what-are-widgets-renderobjects-and-elements-630a57d05208)
 
-## 博客
+[关于Flutter的各个知识点，比较简单](http://cogitas.net/)
 
-[关于Flutter的各个知识点，值得前期翻译](http://cogitas.net/)
 ## 英文视频
 
 - [比较全面的Dart和Flutter教程](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured)
