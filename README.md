@@ -1,8 +1,6 @@
 # flutter-app-dev
 flutter-app-dev
 
-https://feather-apps.com/ 可以在桌面运行
-
 ## 中文参考文档
 
 [Flutter 原理简解](https://mp.weixin.qq.com/s/CQQXD0TrlbaNWjoClIcDtw)
@@ -28,7 +26,7 @@ https://feather-apps.com/ 可以在桌面运行
 [关于Flutter的各个知识点，值得前期翻译](http://cogitas.net/)
 ## 英文视频
 
--[比较全面的Dart和Flutter教程](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured)
+- [比较全面的Dart和Flutter教程](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured)
 
 - https://www.udemy.com/learn-flutter-dart-to-build-ios-android-apps/?couponCode=EARLY_BIRD_YT1
 
@@ -39,3 +37,5 @@ https://feather-apps.com/ 可以在桌面运行
 
 [计算器](https://github.com/escamoteur/flutter_calculator)
 
+## 其他
+- [可以在桌面运行](https://feather-apps.com/)
