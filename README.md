@@ -38,4 +38,4 @@
 [计算器](https://github.com/escamoteur/flutter_calculator)
 
 ## 其他
-- [可以在桌面运行](https://feather-apps.com/)
+- [Flutter 应用可以运行在桌面](https://feather-apps.com/)
