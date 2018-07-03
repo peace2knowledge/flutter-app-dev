@@ -31,6 +31,8 @@
 
 [Learn Flutter & Dart to Build iOS & Android Apps](https://www.udemy.com/learn-flutter-dart-to-build-ios-android-apps/?couponCode=EARLY_BIRD_YT1)
 
+[Flutter's Layered Design](https://www.youtube.com/watch?v=dkyY9WCGMi0)
+
 ## 例子
 [五子棋](https://github.com/RedBrogdon/flutterflip)
 
