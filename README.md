@@ -27,6 +27,8 @@
 
 [一步一实现Flutter的Redux](https://medium.com/@maksimrv/reactive-app-state-in-flutter-73f829bcf6a7)
 
+[各种应用状态管理方案](https://github.com/brianegan/flutter_architecture_samples)
+
 ## 英文视频
 
 [比较全面的Dart和Flutter教程](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured)
