@@ -35,6 +35,8 @@
 
 [工程环境切换问题](https://flutter.rocks/2018/03/02/separating-build-environments-part-one/)
 
+[Flutter在Android平台实现的问题](https://medium.com/@takahirom/exploring-flutter-in-android-533598ba17d2)
+
 ## 英文视频
 
 [比较全面的Dart和Flutter教程](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured)
