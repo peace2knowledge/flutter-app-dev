@@ -37,6 +37,12 @@
 
 [Flutter在Android平台实现的问题](https://medium.com/@takahirom/exploring-flutter-in-android-533598ba17d2)
 
+[关于streams讲解](http://dartdoc.takyam.com/docs/tutorials/streams/)
+
+[Android和运行时权限](http://cogitas.net/android-runtime-permission-flow-flutter/)
+
+[对于InheritedWidget的理解](https://stackoverflow.com/questions/49491860/flutter-how-to-correctly-use-an-inherited-widget)
+
 ## 英文视频
 
 [比较全面的Dart和Flutter教程](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured)
