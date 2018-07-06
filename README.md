@@ -29,6 +29,8 @@
 
 [各种应用状态管理方案](https://github.com/brianegan/flutter_architecture_samples)
 
+[Widget - State - Context - InheritedWidget核心概念](https://www.didierboelens.com/2018/06/widget---state---context---inheritedwidget/)
+
 ## 英文视频
 
 [比较全面的Dart和Flutter教程](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured)
