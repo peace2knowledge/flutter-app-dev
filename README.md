@@ -43,6 +43,7 @@
 
 [对于InheritedWidget的理解](https://stackoverflow.com/questions/49491860/flutter-how-to-correctly-use-an-inherited-widget)
 
+[Backdrop组件解析](https://medium.com/flutter-io/decomposing-widgets-backdrop-b5c664fb9cf4)
 ## 英文视频
 
 [比较全面的Dart和Flutter教程](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured)
