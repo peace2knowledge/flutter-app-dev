@@ -33,6 +33,8 @@
 
 [学习指导](https://hackernoon.com/practical-flutter-my-personal-6-tips-for-newcomers-dfbe44a29246)
 
+[工程环境切换问题](https://flutter.rocks/2018/03/02/separating-build-environments-part-one/)
+
 ## 英文视频
 
 [比较全面的Dart和Flutter教程](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured)
