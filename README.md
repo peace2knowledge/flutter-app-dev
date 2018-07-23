@@ -13,6 +13,8 @@
 
 [下一代移动端跨平台框架-Flutter大解密](https://mp.weixin.qq.com/s/ZMp2fSOTlYkZ_aNIOrUZdw)
 
+[为现有 iOS项目集成 Flutter](https://mp.weixin.qq.com/s/TTSin5tG930Fyx2-cNZylw)
+
 ## 英文文档
 
 [从各个方面比较Flutter和RN](https://www.smashingmagazine.com/2018/06/google-flutter-mobile-development/)
