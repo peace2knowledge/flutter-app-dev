@@ -15,6 +15,8 @@
 
 [为现有 iOS项目集成 Flutter](https://mp.weixin.qq.com/s/TTSin5tG930Fyx2-cNZylw)
 
+[布局总结](https://juejin.im/post/5bab35ff5188255c3272c228)
+
 ## 英文文档
 
 [从各个方面比较Flutter和RN](https://www.smashingmagazine.com/2018/06/google-flutter-mobile-development/)
