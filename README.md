@@ -17,6 +17,8 @@
 
 [布局总结](https://juejin.im/post/5bab35ff5188255c3272c228)
 
+[开源中国](https://juejin.im/post/5b4fef17e51d4519475f29f6)
+
 ## 英文文档
 
 [从各个方面比较Flutter和RN](https://www.smashingmagazine.com/2018/06/google-flutter-mobile-development/)
